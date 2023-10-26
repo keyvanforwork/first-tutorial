@@ -41,43 +41,43 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/k1/CLionProjects/untitled/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target untitled
+# Object build statements for EXECUTABLE target run
 
 
 #############################################
-# Order-only phony target for untitled
+# Order-only phony target for run
 
-build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
+build cmake_object_order_depends_target_run: phony || CMakeFiles/run.dir
 
-build CMakeFiles/untitled.dir/main.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug C$:/Users/k1/CLionProjects/untitled/main.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\main.cpp.obj.d
+build CMakeFiles/run.dir/main.cpp.obj: CXX_COMPILER__run_unscanned_Debug C$:/Users/k1/CLionProjects/untitled/main.cpp || cmake_object_order_depends_target_run
+  DEP_FILE = CMakeFiles\run.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+  OBJECT_DIR = CMakeFiles\run.dir
+  OBJECT_FILE_DIR = CMakeFiles\run.dir
 
-build CMakeFiles/untitled.dir/add.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug C$:/Users/k1/CLionProjects/untitled/add.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\add.cpp.obj.d
+build CMakeFiles/run.dir/add.cpp.obj: CXX_COMPILER__run_unscanned_Debug C$:/Users/k1/CLionProjects/untitled/add.cpp || cmake_object_order_depends_target_run
+  DEP_FILE = CMakeFiles\run.dir\add.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+  OBJECT_DIR = CMakeFiles\run.dir
+  OBJECT_FILE_DIR = CMakeFiles\run.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target untitled
+# Link build statements for EXECUTABLE target run
 
 
 #############################################
-# Link the executable untitled.exe
+# Link the executable run.exe
 
-build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.cpp.obj CMakeFiles/untitled.dir/add.cpp.obj
+build run.exe: CXX_EXECUTABLE_LINKER__run_Debug CMakeFiles/run.dir/main.cpp.obj CMakeFiles/run.dir/add.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_DIR = CMakeFiles\run.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = untitled.exe
-  TARGET_IMPLIB = libuntitled.dll.a
-  TARGET_PDB = untitled.exe.dbg
+  TARGET_FILE = run.exe
+  TARGET_IMPLIB = librun.dll.a
+  TARGET_PDB = run.exe.dbg
 
 
 #############################################
@@ -105,7 +105,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build untitled: phony untitled.exe
+build run: phony run.exe
 
 # =============================================================================
 # Folder targets.
@@ -115,7 +115,7 @@ build untitled: phony untitled.exe
 #############################################
 # Folder: C:/Users/k1/CLionProjects/untitled/cmake-build-debug
 
-build all: phony untitled.exe
+build all: phony run.exe
 
 # =============================================================================
 # Built-in targets
