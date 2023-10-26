@@ -1,19 +1,18 @@
 #include <iostream>
 
-#ifndef ADD_H
-#define ADD_H
-
-int add(int x, int y);
-
-#endif
-
-#define MY_NAME "Karim"
+bool isEqual(int x, int y) {
+    return (x == y);
+}
 
 int main() {
-    std::cout << "Hello, " << MY_NAME << '\n';
-    std::cout << "Age is , " << add(4, 20) << '\n';
-#if 0
-    std::cout << "Good";
-#endif
+    std::cout << "Enter the first number: ";
+    int x{};
+    std::cin >> x;
+    std::cout << "Enter the second number: ";
+    int y{};
+    std::cin >> y;
+    std::cout << std::boolalpha;
+    std::cout << x << " and " << y << " are equal: ";
+    std::cout << isEqual(x, y);
     return 0;
 }
