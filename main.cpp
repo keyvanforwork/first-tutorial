@@ -1,15 +1,14 @@
 #include <iostream>
+#include <string>
 
 int main() {
-    int num{};
-    std::cout << "Enter an integer number";
-    std::cin >> num;
+    std::cout << "Enter your name:";
+    std::string name{};
+    std::getline(std::cin >> std::ws, name);
+    std::cout << "Enter your age:";
+    std::string age{};
+    std::getline(std::cin >> std::ws, age);
 
-    if(num == 0)
-        std::cout << "Number is zero";
-    else if(num > 0)
-        std::cout << "Number is positive";
-    else
-        std::cout << "Number is negative";
+    std::cout << "name: " << name << '\n' << "age: " << age;
     return 0;
 }
