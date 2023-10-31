@@ -1,14 +1,15 @@
 #include <iostream>
-#include <string>
 
 int main() {
-    std::cout << "Enter your name:";
-    std::string name{};
-    std::getline(std::cin >> std::ws, name);
-    std::cout << "Enter your age:";
-    std::string age{};
-    std::getline(std::cin >> std::ws, age);
+    std::cout << "Enter the number";
+    int num{};
+    std::cin >> num;
+    if (num % 2 == 0)
+        std::cout << num << "\t" << "is an even number";
+    else if (num == 0)
+        std::cout << num << "is a zero";
+    else
+        std::cout << num << "is a odd number";
 
-    std::cout << "name: " << name << '\n' << "age: " << age;
     return 0;
 }
