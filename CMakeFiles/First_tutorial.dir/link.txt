@@ -1,0 +1,3 @@
+"D:\Programs\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\First_tutorial.dir/objects.a
+"D:\Programs\CLion 2023.2.2\bin\mingw\bin\ar.exe" qc CMakeFiles\First_tutorial.dir/objects.a @CMakeFiles\First_tutorial.dir\objects1.rsp
+"D:\Programs\CLion 2023.2.2\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\First_tutorial.dir/objects.a -Wl,--no-whole-archive -o First_tutorial.exe -Wl,--out-implib,libFirst_tutorial.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\First_tutorial.dir\linkLibs.rsp

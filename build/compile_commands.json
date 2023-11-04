@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/k1/CLionProjects/untitled/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/First_tutorial.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\First_tutorial.dir\\main.cpp.obj -c C:\\Users\\k1\\CLionProjects\\untitled\\main.cpp",
+  "file": "C:/Users/k1/CLionProjects/untitled/main.cpp"
+}
+]

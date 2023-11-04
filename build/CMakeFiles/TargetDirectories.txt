@@ -1,0 +1,3 @@
+C:/Users/k1/CLionProjects/untitled/build/CMakeFiles/First_tutorial.dir
+C:/Users/k1/CLionProjects/untitled/build/CMakeFiles/edit_cache.dir
+C:/Users/k1/CLionProjects/untitled/build/CMakeFiles/rebuild_cache.dir

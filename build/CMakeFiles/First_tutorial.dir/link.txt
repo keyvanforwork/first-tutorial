@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\First_tutorial.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\First_tutorial.dir/objects.a @CMakeFiles\First_tutorial.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\First_tutorial.dir/objects.a -Wl,--no-whole-archive -o First_tutorial.exe -Wl,--out-implib,libFirst_tutorial.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\First_tutorial.dir\linklibs.rsp

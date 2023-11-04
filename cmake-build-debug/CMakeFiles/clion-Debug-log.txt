@@ -1,4 +1,10 @@
 "D:\Programs\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Programs/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\k1\CLionProjects\untitled -B C:\Users\k1\CLionProjects\untitled\cmake-build-debug
--- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: C:/Users/k1/CLionProjects/untitled/cmake-build-debug
+CMake Error at D:/Programs/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+  Could NOT find CURL (missing: CURL_LIBRARY CURL_INCLUDE_DIR)
+Call Stack (most recent call first):
+  D:/Programs/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:600 (_FPHSA_FAILURE_MESSAGE)
+  D:/Programs/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindCURL.cmake:182 (find_package_handle_standard_args)
+  CMakeLists.txt:4 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
