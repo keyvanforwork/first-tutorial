@@ -83,71 +83,20 @@ CMakeFiles/First_tutorial.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/First_tutorial.dir/main.cpp.s"
 	"D:\Programs\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\k1\CLionProjects\untitled\main.cpp -o CMakeFiles\First_tutorial.dir\main.cpp.s
 
-CMakeFiles/First_tutorial.dir/add.cpp.obj: CMakeFiles/First_tutorial.dir/flags.make
-CMakeFiles/First_tutorial.dir/add.cpp.obj: CMakeFiles/First_tutorial.dir/includes_CXX.rsp
-CMakeFiles/First_tutorial.dir/add.cpp.obj: add.cpp
-CMakeFiles/First_tutorial.dir/add.cpp.obj: CMakeFiles/First_tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\k1\CLionProjects\untitled\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/First_tutorial.dir/add.cpp.obj"
-	"D:\Programs\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/First_tutorial.dir/add.cpp.obj -MF CMakeFiles\First_tutorial.dir\add.cpp.obj.d -o CMakeFiles\First_tutorial.dir\add.cpp.obj -c C:\Users\k1\CLionProjects\untitled\add.cpp
-
-CMakeFiles/First_tutorial.dir/add.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/First_tutorial.dir/add.cpp.i"
-	"D:\Programs\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\k1\CLionProjects\untitled\add.cpp > CMakeFiles\First_tutorial.dir\add.cpp.i
-
-CMakeFiles/First_tutorial.dir/add.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/First_tutorial.dir/add.cpp.s"
-	"D:\Programs\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\k1\CLionProjects\untitled\add.cpp -o CMakeFiles\First_tutorial.dir\add.cpp.s
-
-CMakeFiles/First_tutorial.dir/foo.cpp.obj: CMakeFiles/First_tutorial.dir/flags.make
-CMakeFiles/First_tutorial.dir/foo.cpp.obj: CMakeFiles/First_tutorial.dir/includes_CXX.rsp
-CMakeFiles/First_tutorial.dir/foo.cpp.obj: foo.cpp
-CMakeFiles/First_tutorial.dir/foo.cpp.obj: CMakeFiles/First_tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\k1\CLionProjects\untitled\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/First_tutorial.dir/foo.cpp.obj"
-	"D:\Programs\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/First_tutorial.dir/foo.cpp.obj -MF CMakeFiles\First_tutorial.dir\foo.cpp.obj.d -o CMakeFiles\First_tutorial.dir\foo.cpp.obj -c C:\Users\k1\CLionProjects\untitled\foo.cpp
-
-CMakeFiles/First_tutorial.dir/foo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/First_tutorial.dir/foo.cpp.i"
-	"D:\Programs\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\k1\CLionProjects\untitled\foo.cpp > CMakeFiles\First_tutorial.dir\foo.cpp.i
-
-CMakeFiles/First_tutorial.dir/foo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/First_tutorial.dir/foo.cpp.s"
-	"D:\Programs\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\k1\CLionProjects\untitled\foo.cpp -o CMakeFiles\First_tutorial.dir\foo.cpp.s
-
-CMakeFiles/First_tutorial.dir/goo.cpp.obj: CMakeFiles/First_tutorial.dir/flags.make
-CMakeFiles/First_tutorial.dir/goo.cpp.obj: CMakeFiles/First_tutorial.dir/includes_CXX.rsp
-CMakeFiles/First_tutorial.dir/goo.cpp.obj: goo.cpp
-CMakeFiles/First_tutorial.dir/goo.cpp.obj: CMakeFiles/First_tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\k1\CLionProjects\untitled\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/First_tutorial.dir/goo.cpp.obj"
-	"D:\Programs\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/First_tutorial.dir/goo.cpp.obj -MF CMakeFiles\First_tutorial.dir\goo.cpp.obj.d -o CMakeFiles\First_tutorial.dir\goo.cpp.obj -c C:\Users\k1\CLionProjects\untitled\goo.cpp
-
-CMakeFiles/First_tutorial.dir/goo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/First_tutorial.dir/goo.cpp.i"
-	"D:\Programs\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\k1\CLionProjects\untitled\goo.cpp > CMakeFiles\First_tutorial.dir\goo.cpp.i
-
-CMakeFiles/First_tutorial.dir/goo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/First_tutorial.dir/goo.cpp.s"
-	"D:\Programs\CLion 2023.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\k1\CLionProjects\untitled\goo.cpp -o CMakeFiles\First_tutorial.dir\goo.cpp.s
-
 # Object files for target First_tutorial
 First_tutorial_OBJECTS = \
-"CMakeFiles/First_tutorial.dir/main.cpp.obj" \
-"CMakeFiles/First_tutorial.dir/add.cpp.obj" \
-"CMakeFiles/First_tutorial.dir/foo.cpp.obj" \
-"CMakeFiles/First_tutorial.dir/goo.cpp.obj"
+"CMakeFiles/First_tutorial.dir/main.cpp.obj"
 
 # External object files for target First_tutorial
 First_tutorial_EXTERNAL_OBJECTS =
 
 First_tutorial.exe: CMakeFiles/First_tutorial.dir/main.cpp.obj
-First_tutorial.exe: CMakeFiles/First_tutorial.dir/add.cpp.obj
-First_tutorial.exe: CMakeFiles/First_tutorial.dir/foo.cpp.obj
-First_tutorial.exe: CMakeFiles/First_tutorial.dir/goo.cpp.obj
 First_tutorial.exe: CMakeFiles/First_tutorial.dir/build.make
 First_tutorial.exe: C:/cMake\ package/CURL/lib/libcurl.dll.a
 First_tutorial.exe: CMakeFiles/First_tutorial.dir/linkLibs.rsp
 First_tutorial.exe: CMakeFiles/First_tutorial.dir/objects1.rsp
 First_tutorial.exe: CMakeFiles/First_tutorial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\k1\CLionProjects\untitled\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable First_tutorial.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\k1\CLionProjects\untitled\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable First_tutorial.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\First_tutorial.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

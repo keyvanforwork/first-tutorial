@@ -34,7 +34,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 10,
+				"line" : 11,
 				"parent" : 0
 			}
 		]
@@ -45,10 +45,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
-				},
-				{
-					"fragment" : "-std=gnu++23"
+					"fragment" : "-g -std=gnu++23"
 				}
 			],
 			"includes" : 

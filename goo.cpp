@@ -1,3 +1,6 @@
-int doMines(int x, int y) {
-    return x - y;
+
+namespace goo{
+    int doMines(int x, int y) {
+        return x - y;
+    }
 }

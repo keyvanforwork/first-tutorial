@@ -128,78 +128,6 @@ First_tutorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\First_tutorial.dir\build.make CMakeFiles/First_tutorial.dir/build
 .PHONY : First_tutorial/fast
 
-add.obj: add.cpp.obj
-.PHONY : add.obj
-
-# target to build an object file
-add.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\First_tutorial.dir\build.make CMakeFiles/First_tutorial.dir/add.cpp.obj
-.PHONY : add.cpp.obj
-
-add.i: add.cpp.i
-.PHONY : add.i
-
-# target to preprocess a source file
-add.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\First_tutorial.dir\build.make CMakeFiles/First_tutorial.dir/add.cpp.i
-.PHONY : add.cpp.i
-
-add.s: add.cpp.s
-.PHONY : add.s
-
-# target to generate assembly for a file
-add.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\First_tutorial.dir\build.make CMakeFiles/First_tutorial.dir/add.cpp.s
-.PHONY : add.cpp.s
-
-foo.obj: foo.cpp.obj
-.PHONY : foo.obj
-
-# target to build an object file
-foo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\First_tutorial.dir\build.make CMakeFiles/First_tutorial.dir/foo.cpp.obj
-.PHONY : foo.cpp.obj
-
-foo.i: foo.cpp.i
-.PHONY : foo.i
-
-# target to preprocess a source file
-foo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\First_tutorial.dir\build.make CMakeFiles/First_tutorial.dir/foo.cpp.i
-.PHONY : foo.cpp.i
-
-foo.s: foo.cpp.s
-.PHONY : foo.s
-
-# target to generate assembly for a file
-foo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\First_tutorial.dir\build.make CMakeFiles/First_tutorial.dir/foo.cpp.s
-.PHONY : foo.cpp.s
-
-goo.obj: goo.cpp.obj
-.PHONY : goo.obj
-
-# target to build an object file
-goo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\First_tutorial.dir\build.make CMakeFiles/First_tutorial.dir/goo.cpp.obj
-.PHONY : goo.cpp.obj
-
-goo.i: goo.cpp.i
-.PHONY : goo.i
-
-# target to preprocess a source file
-goo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\First_tutorial.dir\build.make CMakeFiles/First_tutorial.dir/goo.cpp.i
-.PHONY : goo.cpp.i
-
-goo.s: goo.cpp.s
-.PHONY : goo.s
-
-# target to generate assembly for a file
-goo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\First_tutorial.dir\build.make CMakeFiles/First_tutorial.dir/goo.cpp.s
-.PHONY : goo.cpp.s
-
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -233,15 +161,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... First_tutorial
-	@echo ... add.obj
-	@echo ... add.i
-	@echo ... add.s
-	@echo ... foo.obj
-	@echo ... foo.i
-	@echo ... foo.s
-	@echo ... goo.obj
-	@echo ... goo.i
-	@echo ... goo.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
