@@ -1,16 +1,12 @@
 #include <iostream>
-#include <cmath>
 
 int main() {
-    double x{};
-    tryAgain:
-    std::cout << "Enter a non-negative number: ";
-    std::cin >> x;
+    while (true) {
+        std::cout << "loop (y/n) ";
+        char c;
+        std::cin >> c;
 
-    if(x < 0.0)
-        goto tryAgain;
-
-    std::cout << "The square root " << x <<  " is equal to :  " << std::sqrt(x) << '\n';
-
-    return 0;
+        if (c == 'n')
+            return 0;
+    }
 }
