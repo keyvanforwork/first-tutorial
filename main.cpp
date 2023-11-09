@@ -1,12 +1,18 @@
 #include <iostream>
 
-int main() {
-    while (true) {
-        std::cout << "loop (y/n) ";
-        char c;
-        std::cin >> c;
+void compare(int x, int y) {
+    if (x > y)
+        std::cout << x << " grater than  " << y << '\n';
+    else if (x < y)
+        std::cout << x << " less than  " << y << '\n';
+    else
+        std::cout << x << " is equal to   " << y << '\n';
+}
 
-        if (c == 'n')
-            return 0;
-    }
+int main() {
+    compare(5, 8);
+    compare(8, 5);
+    compare(5, 5);
+
+    return 0;
 }
