@@ -1,18 +1,16 @@
 #include <iostream>
-
-void compare(int x, int y) {
-    if (x > y)
-        std::cout << x << " grater than  " << y << '\n';
-    else if (x < y)
-        std::cout << x << " less than  " << y << '\n';
-    else
-        std::cout << x << " is equal to   " << y << '\n';
-}
+#include <random>
 
 int main() {
-    compare(5, 8);
-    compare(8, 5);
-    compare(5, 5);
+    std::mt19937 mt;
+
+    std::uniform_int_distribution d6{1, 6};
+
+    for(int count{1}; count <= 50; ++count){
+        std::cout << d6(mt) << '\t';
+        if(count % 5 == 0)
+            std::cout << '\n';
+    }
 
     return 0;
 }
